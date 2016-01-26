@@ -2,4 +2,7 @@
   "LOGGING": {
     "LEVEL": "none"
   }
+, "RETHINKDB": {
+    "DATABASE": "testing"
+  }
 }
