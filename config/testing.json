@@ -1,6 +1,6 @@
 {
   "LOGGING": {
-    "LEVEL": "none"
+    "LEVEL": "info"
   }
 , "RETHINKDB": {
     "DATABASE": "testing"
