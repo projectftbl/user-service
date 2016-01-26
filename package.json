@@ -23,6 +23,7 @@
     "@ftbl/bootstrap": "^1.0.0",
     "@ftbl/bus": "^1.0.0",
     "@ftbl/configuration": "^1.0.0",
+    "@ftbl/email": "^1.0.0",
     "@ftbl/errors": "^1.0.0",
     "@ftbl/log": "^1.0.0",
     "@ftbl/repl": "^1.0.0",
@@ -34,7 +35,6 @@
     "@ftbl/task": "^1.0.0",
     "@ftbl/utility": "^1.0.1",
     "bluebird": "^2.10.1",
-    "exarch": "^1.0.2",
     "lodash": "^3.10.1"
   },
   "devDependencies": {
