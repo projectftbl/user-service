@@ -31,7 +31,7 @@
     "@ftbl/server": "^1.0.0",
     "@ftbl/session-service": "^1.0.2",
     "@ftbl/social": "^1.0.0",
-    "@ftbl/store": "^1.0.0",
+    "@ftbl/store": "^1.0.1",
     "@ftbl/task": "^1.0.0",
     "@ftbl/utility": "^1.0.1",
     "bluebird": "^2.10.1",
