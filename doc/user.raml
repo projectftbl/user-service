@@ -1,0 +1,62 @@
+#%RAML 1.0
+title: User REST API
+version: v1
+baseUri: https://user.api.ftbl.com/
+mediaType: application/json
+types:
+  User: 
+    type: object
+    properties:
+      email: string
+      name: string
+      handle: string
+      password: string
+      shouldChangePassword: boolean
+      verificationCode: string
+      photo: string
+      token: string
+
+/users:
+  post:
+    body:
+      type: User
+    responses:
+      200:
+        body:
+          user:
+            type: User
+  get:
+    queryParameters:
+    responses:
+      200:
+        body:
+          users:
+            type: User[]
+
+  /search:
+    post:
+      description: POST equivalent of GET
+      body:
+      responses:
+        200:
+          body:
+            users:
+              type: User[]
+
+  /{id}:
+
+    get:
+      responses:
+        200:
+          body:
+            user:
+              type: User
+
+    put:
+      body:
+        type: User
+      responses:
+        200:
+
+    delete:
+
