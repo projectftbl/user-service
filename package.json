@@ -1,6 +1,6 @@
 {
   "name": "@ftbl/user-service",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Users web services",
   "main": "node index",
   "scripts": {
