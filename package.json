@@ -32,7 +32,7 @@
     "@ftbl/server": "^1.1.1",
     "@ftbl/social": "^1.0.0",
     "@ftbl/socket": "^1.0.4",
-    "@ftbl/store": "^1.1.9",
+    "@ftbl/store": "^1.2.0",
     "@ftbl/task": "^1.1.2",
     "@ftbl/utility": "^1.0.2",
     "bluebird": "^3.0.0",
