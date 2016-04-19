@@ -1,4 +1,11 @@
-p 
-  | Please verify your email address 
-  a(href='#{host}/verify/#{user.verificationCode}') here
-  |.
+p Please verify your email address, click on the link below.
+
+a(href='#{host}/verify/#{user.verificationCode}') Verify your email address
+
+p Or copy and paste this URL into your browser.
+
+p #{host}/verify/#{user.verificationCode}
+
+p Thanks
+br 
+| The FTBL Team
