@@ -1,3 +1,3 @@
-## @ftbl/user-service
+## @recipher/user-service
 
 User-related web APIs.
