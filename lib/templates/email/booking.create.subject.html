@@ -1,13 +1,40 @@
 img(src='https://tweedlovemegademo.com/logo.png' width='300')
 
-p Hello,
+h4 Thanks for pre-booking for the TweedLove Mega Demo. It’s going to be BIG! 
 
-p Thanks for signing up.
+p You have pre-booked for the following demo slot(s):
 
-p Please complete your registration by clicking the link below.
+ul
+  each booking in bookings 
+    li= booking.description 
 
-a(href='#{host}/verify/#{user.verificationCode}') Verify your email address
+p You can pre-book online for a maximum of two demo slots per day. If there are spaces for other slots available on the day of the demo, you can sign up for them in person then (first come, first served basis). Maximum demo charge is £10 per person, per day. 
 
-p Or copy and paste this URL into your browser.
+p We will send demo notes out to all pre-booked participants prior to the event. Any questions in the meantime, contact us at info@tweedlove.com.
 
-p #{host}/verify/#{user.verificationCode}
+h4 Demo Process 
+
+ol
+  li Each participant will register in person on the day(s) of their demo with the TweedLove team at the registration tent in the Event Village, Tweed Green, Peebles, EH45 8AP. We will retain the participant’s photo ID (passport or driving license) AND a corresponding debit/credit card as a deposit for the duration of the demo. We will then issue the participant with a wristband plus a 'Demo ID card' - the wristband and Demo ID will have a corresponding number. 
+
+  li Participants must register at least 30 minutes prior to their first demo slot - if you don’t register in time, your demo slot may be released. It will be the attendee’s responsibility to collect their demo bikes from the correct brands at the correct times. 
+
+  li Participants will collect their bikes from the brands directly. They will exchange their Demo ID card for the bike. It will be returned when the bike is handed back in good condition. 
+
+  li Demonstration bicycles are the responsibility of the participant who is demo-ing/riding the bike, and loss, damage or misuse must be paid in full. In the case of any damage/loss, the brand will be responsible for acquiring payment from the participant. 
+
+  li Attendees must return their bikes to the brands at, or before, the end of their demo time slot, and will exchange the bike for their Demo ID card. 
+
+  li After attendees have finished demo-ing, they will return to TweedLove with their Demo ID card and corresponding wristband, and exchange these for their original forms of ID (photo ID and credit/debit card). 
+
+p Please note:
+
+ul
+  li Helmets are compulsory for all riders - riders must bring their own helmets. No rider will be allowed to take part in a demo ride without a helmet. Gloves are recommended. 
+  li Participants must register with TweedLove at least 30 minutes prior to their first demo slot of the day, or risk their slot being released. 
+  li Participants must arrive to collect their bike from the brand within 15 minutes of their time slot starting (i.e. if their time slot is 10am-11:30am, they must have arrived by 10:15am to collect their bike). 
+  li Participants must return their bike to the brand at, or before, the end of their time slot. This allows the brands 30 minutes to set up the bike(s) for the next demo time slot. 
+  li If a participant returns their demo bike more than 10 minutes after the end of their time slot, they will be charged £10. 
+  li Demonstration bicycles are the responsibility of the rider and loss, damage or misuse must be paid in full. A credit/debit card AND corresponding photographic ID (passport of driving license) will be required as deposit.
+
+p a(href='#{host}/p/waiver) Full terms and conditions.
