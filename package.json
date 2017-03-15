@@ -1,6 +1,6 @@
 {
   "name": "@recipher/user-service",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "Users web services",
   "main": "node index",
   "scripts": {
